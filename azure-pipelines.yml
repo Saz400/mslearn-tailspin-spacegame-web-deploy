@@ -10,7 +10,7 @@ stages:
   jobs:
   - job: 'Build'
     displayName: 'Build Job'
-    apool: Linux Build Agent Pool
+    pool: Linux Build Agent Pool
 
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
